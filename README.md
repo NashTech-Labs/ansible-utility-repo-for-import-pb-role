@@ -25,6 +25,6 @@ ansible-playbook -i ../inventory importpb.yml
 ```
 
 ### How it works?
-- importpb.yml calls importrole.yml. And then importrole calls the role knoldus and ansible-common based on the statement.
+- `importpb.yml` calls `importrole.yml`. And then `importrole` calls the role `knoldus` and `ansible-common` based on the statement.
 
 
